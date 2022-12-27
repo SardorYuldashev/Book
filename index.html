@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/book.webp" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Books</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="container">
+          <nav class="header__nav">
+            <form class="header__nav-form">
+              <h2 class="header__nav-form-title">All books</h2>
+
+              <input
+                type="text"
+                class="header__nav-form-input"
+                placeholder="write title"
+              />
+
+              <a href="#!" class="header__nav-form-btn">search</a>
+            </form>
+
+            <h2 class="header__nav-price">Totatal price: 0 so'm</h2>
+          </nav>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+          <div class="main__content"></div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <h1 class="sidebar-title">BOOKshop</h1>
+
+        <h2 class="sidebar-subtitle">Filter</h2>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-li">
+            <a href="#!" class="sidebar-list-link all"> All books </a>
+          </li>
+
+          <li class="sidebar-list-li">
+            <a href="#!" class="sidebar-list-link expensive"> Exspensive </a>
+          </li>
+
+          <li class="sidebar-list-li">
+            <a href="#!" class="sidebar-list-link middle"> Middle </a>
+          </li>
+
+          <li class="sidebar-list-li">
+            <a href="#!" class="sidebar-list-link cheep"> Cheep </a>
+          </li>
+        </ul>
+        
+
+        <div class="sidebar__block">
+          <input
+            type="number"
+            class="sidebar__block-input"
+            placeholder="price"
+          />
+          <div class="sidebar__block-btns">
+            <a href="#!" class="sidebar__block-btn max">max</a>
+            <a href="#!" class="sidebar__block-btn min">min</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#!" class="bars">
+        <div class="bars__box">
+          <span class="bars__box-on">+</span>
+          <span class="bars__box-off">-</span>
+        </div>
+      </a>
+    </div>
+
+    <script src="apps/app.js"></script>
+  </body>
+</html>
